@@ -36,4 +36,3 @@ async function getAdvice() {
 }
 
 buttonEl.addEventListener("click", getAdvice);
-getAdvice();
