@@ -96,11 +96,12 @@ button {
 }
 
 button:hover {
-  box-shadow: 0 0 4rem 0 var(--Green-300);
+  /* box-shadow: 0 0 4rem 0 var(--Green-300); */
+  opacity: 0.8;
 }
 
 button:active {
-  box-shadow: 0 0 2rem 0 var(--Green-300);
+  box-shadow: 0 0 4rem 0 var(--Green-300);
 }
 
 button img {
