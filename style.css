@@ -43,6 +43,7 @@ main {
   width: 100%;
   max-width: 54rem;
   position: relative;
+  margin: 1.6rem;
 }
 
 .card {
@@ -77,6 +78,7 @@ hr {
 
   background-image: url(/images/pattern-divider-desktop.svg);
   background-size: cover;
+  background-position: center;
 }
 
 button {
@@ -90,6 +92,15 @@ button {
   background-color: var(--Green-300);
   position: absolute;
   bottom: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 4rem 0 var(--Green-300);
+}
+
+button:active {
+  box-shadow: 0 0 2rem 0 var(--Green-300);
 }
 
 button img {
